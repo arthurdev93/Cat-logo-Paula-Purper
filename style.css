@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    padding: 10px;
+    background-image: url(./assets/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+img {
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+}
+h1, h2 {
+    font-family: "fontebold";
+    text-align: right;
+    margin-right: 10px;
+}
+h1 {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+}
+.links {
+    text-align: center;
+    padding:10px;
+    font-family: "fonteregular";
+    
+}
+.linkedin, .whatsapp, .tento {
+    border: 5px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #FF3751;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.linkedin {
+    background-image: url(./assets/linkedin\ branco\ vazado-02.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+}
+.whatsapp {
+    background-image: url(./assets/zap\ zap\ branco\ vazado-03.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+}
+.tento {
+    background-image: url(./assets/site\ branco\ vazado-03.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+}
+@media screen and (min-width:400px){
+    .container{
+        max-width: 100%;
+    }
+    header, section {
+        width: 50%;
+        margin: auto;
+    }
+    img {
+        width: 20vw;
+        max-width: fit-content;
+    }
+    .links {
+        margin-top: 10%;
+    }
+    h1 {
+        font-size: 3vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+}
