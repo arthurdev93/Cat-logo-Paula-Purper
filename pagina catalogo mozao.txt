@@ -1,0 +1,6 @@
+PÁGINA DE LINKS MOZAO
+
+links: linkedin, zap tento, site tento
+fonte: Aileron (bold para titulo, regular resto)
+rosa #FF3751
+cinza #C3C3C3
